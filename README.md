@@ -7,7 +7,8 @@ $ ./gradlew clean
 BUILD SUCCESSFUL in 622ms
 1 actionable task: 1 executed
 $ ls -l build/
-ls: cannot access 'build/': No such file or directory$ ./gradlew test
+ls: cannot access 'build/': No such file or directory
+$ ./gradlew test
 
 > Task :test
 OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
